@@ -25,3 +25,14 @@ When user clicks signin
 And user enters credentials as
 | lalitha | Password123 |
 
+@product
+Scenario: product search
+Given users open TestMe
+When user clicks sign
+And user enters credential as
+| lalitha | Password123 |
+When user search product
+|head|
+And product display
+And product is added to cart
+

@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features="featureFiles", glue= { "casestudy1" } ,tags="@Login")
+features="featureFiles", glue= { "casestudy1" } ,tags="@product")
 public class RunnerClass {
 
 }
