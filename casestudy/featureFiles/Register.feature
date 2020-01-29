@@ -36,14 +36,5 @@ When user search product
 And product display
 And product is added to cart
 
-@addtocart
-Scenario: product not added
-Given user open TestMe
-When users clicks sign
-And users enters credential as
-| lalitha | Password123 |
-When users search product
-|head|
-And products display
-And products is added to cart
+
 
